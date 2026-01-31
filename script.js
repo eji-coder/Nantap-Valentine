@@ -54,22 +54,7 @@ function displayCat() {
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
     };
-}
-
-// Function to display the Nan.Jpg initially
-function displayNan() {
-    // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
-    // Create a new Image element for the cat
-    var NanImage = new Image();
-    // Set the source (file path) for the cat image
-    NanImage.src = 'Nan.Jpg'; // Assuming the cat image is named "cat.gif"
-    // Set alternative text for the image (for accessibility)
-    NanImage.alt = 'Nan';
-    // When the cat image is fully loaded, add it to the image container
-    NanImage.onload = function() {
-        imageContainer.appendChild(NanImage);
-    };
+    
 }
 
 // Function to display the cat-heart.gif
@@ -94,3 +79,4 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+
