@@ -54,7 +54,6 @@ function displayCat() {
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
     };
-    
 }
 
 // Function to display the cat-heart.gif
@@ -79,4 +78,3 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
-
